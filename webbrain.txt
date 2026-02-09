@@ -1,0 +1,98 @@
+WebStorm 2025.2
+Build #WS-252.23892.411, built on August 1, 2025
+Source revision: 0a9a69b3f9332
+Licensed to Sarvar Ibragimov
+Subscription is active until October 19, 2026.
+For non-commercial use only.
+Runtime version: 21.0.7+6-b1038.58 x86_64 (JCEF 122.1.9)
+VM: OpenJDK 64-Bit Server VM by JetBrains s.r.o.
+Toolkit: sun.lwawt.macosx.LWCToolkit
+macOS 15.4.1
+GC: G1 Young Generation, G1 Concurrent GC, G1 Old Generation
+Memory: 2048M
+Cores: 12
+Metal Rendering is ON
+Registry:
+  ide.balloon.shadow.size=0
+  ide.new.editor.tabs.vertical.borders=true
+  ide.animate.toolwindows=true
+  ide.experimental.ui=true
+  ide.editor.tab.selection.animation=true
+  ide.colorful.toolbar.gradient.radius=600
+  idea.islands.gradient.enabled=false
+Non-Bundled Plugins:
+  org.jetbrains.plugins.yaml (252.23892.464)
+  JavaScriptDebugger (252.23892.515)
+  org.jetbrains.completion.full.line (252.23892.458)
+  org.editorconfig.editorconfigjetbrains (252.23892.464)
+  Subversion (252.23892.530)
+  ru.adelf.idea.dotenv (252.23892.201)
+  com.intellij.copyright (252.23892.464)
+  com.intellij.kubernetes (252.23892.515)
+  com.markskelton.one-dark-theme (5.14.1)
+  com.anthropic.code.plugin (0.1.14-beta)
+  com.intellij.swagger (252.23892.464)
+  com.jetbrains.restClient (252.23892.464)
+  com.samdark.intellij-visual-studio-code-dark-plus (2.9.0)
+  Docker (252.23892.515)
+  com.intellij.ml.llm (252.23892.530)
+  org.jetbrains.plugins.gitlab (252.23892.515-IU)
+  org.jetbrains.plugins.github (252.23892.515-IU)
+  com.chrisrm.idea.MaterialThemeUI (10.2.0)
+  com.intellij.react (252.23892.515)
+  org.jetbrains.plugins.vue (252.23892.449)
+  com.github.dinbtechit.jetbrainsnestjs (0.0.9)
+  com.nekofar.milad.intellij.nestjs (1.4.2)
+  com.github.dinbtechit.vscodetheme (1.12.0)
+  Karma (252.25204.0)
+  com.mallowigi (101.2.0)
+  zielu.gittoolbox (600.1.7+243)
+  mobi.hsz.idea.gitignore (4.5.6)
+  org.jetbrains.security.package-checker (252.23892.464)
+  cn.yiiguxing.plugin.translate (3.7.3)
+  com.intellij.microservices.ui (252.23892.464)
+  izhangzhihao.rainbow.brackets (2025.3.3)
+
+
+s.ibragimov@tuit.uz
+
+
+Code → HTTPS → Copy URL
+https://github.com/user/project.git
+cd ~/projects        # or wherever you store code
+git clone https://github.com/user/project.git
+projects/
+ └── project/
+cd project
+code .
+This depends on stack. Check for lockfiles:
+
+File	Command
+package.json	npm install
+yarn.lock	yarn
+pnpm-lock.yaml	pnpm install
+requirements.txt	pip install -r
+go.mod	go mod tidy
+npm install
+"scripts": {
+  "dev": "nest start --watch",
+  "start": "node dist/main.js"
+}
+npx prisma migrate dev
+or npm run migration:run
+npm run build
+git remote -v
+git branch
+
+  ssh setup
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+ssh-add -l
+ssh -T git@github.com
+git@github.com:USER/REPO.git
+git remote -v
+npm install
+npm run dev
+
