@@ -96,3 +96,5 @@ git remote -v
 npm install
 npm run dev
 
+shamir
+698200ab
